@@ -1,0 +1,53 @@
+.container {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  border: 0px;
+  font-size: 18px;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 3px;
+  padding: 10px 25px;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-block;
+  margin-bottom: 10px;
+  /* Atributos do link */
+  text-decoration: none;
+  color: hotpink;
+}
+
+.btn:focus {
+  outline: 1px solid hotpink;
+}
+
+.btn-primary {
+  background-color: #FFC2CE;
+}
+
+.btn-secondary {
+  background-color: #80B3FF;
+}
+
+.btn-warning {
+  background-color: #FD6E8A;
+}
+
+.btn-error {
+  background-color: #A2122F;
+}
+
+.btn-transparent {
+  border: 0px;
+  box-shadow: none;
+}
+
+.btn-dark {
+  color: #fff;
+}
+
+.btn-full {
+  width: 100%;
+}
